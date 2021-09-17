@@ -1,0 +1,15 @@
+.container{
+    display:grid;
+}
+.home{
+    background-color: darkred;
+}
+.about{
+    background-color:blue;
+}
+.skills{
+    background-color: green;
+}
+.contact{
+    background-color: yellow;
+}
