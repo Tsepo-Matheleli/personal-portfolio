@@ -5,13 +5,18 @@
 }
 
 .container{
-    width: 100vw;
-    height: 100vh;
-    overflow: auto;
+    display: grid;
+    grid-template-areas: 
+    "h"
+    "a"
+    "s"
+    "c";
 }
+
 .home{
     height: 100vh;
 }
+
 .about{
     height: 100vh;
 }
@@ -22,29 +27,5 @@
     height: 100vh;
 }
 
-@media (min-width: 540px){
-    .container{
-        display:grid;
-        grid-template-areas: "h a s c";
-        overflow: hidden;
-        overflow-x: scroll;
-        
-    }
-    .home{
-        grid-area: h;
-        width: 100vw;
-    }
-    .about{
-        grid-area: a;
-        width: 100vw;
-    }
-    .skills{
-        grid-area: s;
-        width: 100vw;
-    }
-    .contact{
-        grid-area: c;
-        width: 100vw;
-    }
-}
-
+/* @media (min-width: 540px){} */
+    
