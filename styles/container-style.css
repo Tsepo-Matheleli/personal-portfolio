@@ -4,28 +4,73 @@
     background-color: ivory;
 }
 
-.container{
-    display: grid;
-    grid-template-areas: 
-    "h"
-    "a"
-    "s"
-    "c";
+.navigation{
+    grid-area: N;
+    bottom: 0;
+    float: center;
+    position: fixed;
+    padding-bottom: 5px;
 }
 
-.home{
-    height: 100vh;
-}
+#home{
 
-.about{
-    height: 100vh;
-}
-.skills{
-    height: 100vh;
-}
-.contact{
     height: 100vh;
 }
 
-/* @media (min-width: 540px){} */
+#about{
+    height: 100vh;
+}
+#skills{
+    height: 100vh;
+}
+#contact{
+    height: 100vh;
+}
+
+@media (min-width:580px){
     
+    .container{
+        display: grid;
+        grid-template-areas: "N P";
+    }
+
+    .navigation{
+        grid-area: N;
+    }
+
+    .pages{
+        grid-area: P;
+        width: 78.5vw;
+        position: absolute;
+        right: 0;
+        grid-template-areas: 
+        "h"
+        "a"
+        "s"
+        "c";
+        overflow: auto;
+        padding-left: 5px;
+        padding-top: 20px;
+        padding-bottom: 2px;
+        padding-right: 5px;
+    }
+
+    #home{
+        grid-area: h;
+        height: 100vh;      
+    }
+    
+    #about{
+        grid-area: a;
+        height: 100vh;
+    }
+    #skills{
+        grid-area: s;
+        height: 100vh;
+    }
+    #contact{
+        grid-area: c;
+        height: 100vh;
+    }
+}
+
