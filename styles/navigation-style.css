@@ -7,12 +7,13 @@ ul {
     padding: 0;
     width: 100vw;
     height: 10vh;
-    background-color: grey;
+    background-color: #36454F;
 }
 
 li {
     display: block;
     text-align: center;
+    border-bottom: 1px thin #fff;
 } 
 
 a {
@@ -25,11 +26,7 @@ a {
     background-color: transparent;
     text-decoration: none;
     text-align: center;
-    color: #000;
-}
-
-a:hover {
-    background-color: rgb(207, 204, 173);
+    color: #fff;
 }
 
 @media (min-width: 580px){
@@ -43,17 +40,35 @@ a:hover {
         height: 100vh;
         padding: 0;
         margin: 0;
-        background-color: grey;
+        background-color: #36454F;
     }
     
     a {
         width: 22.22vw;
         padding-top: 25px;
         padding-bottom: 25px;
+        border: 1px thin #fff;
         display: list-item;
         text-decoration: none;
         text-align: center;
-        color: #000;
         background-color: transparent;
     }
+
+    a.btn_menu:active, a.btn_menu:focus {
+        color: #e2ca73;
+        background-color: rgb(207, 204, 173);
+    }
+}
+
+a.btn_menu:hover {
+    background-color: rgb(207, 204, 173);
+}
+
+a.btn_menu:active, a.btn_menu:focus {
+    color: #e2ca73;
+    background-color: rgb(207, 204, 173);
+}
+#btn-menu:target{
+    color: #36454F;
+    background-color: #e2ca73;
 }

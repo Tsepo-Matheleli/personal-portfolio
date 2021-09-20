@@ -1,0 +1,50 @@
+.home{
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.name {
+    word-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #36454F;
+}
+
+.cover-image{
+    align-self: center;
+    width: 80vw;
+}
+
+.ending{
+    float: left;
+    padding: 10px;
+}
+
+img{
+    width: auto;
+    max-width: 100%;
+    max-height: 80%;
+    height: auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-self: center;
+}
+
+
+
+@media (min-width: 580px){
+    .occupation {
+        word-spacing: 1.5px;
+    }
+    
+    .intro{
+        height: 20%;
+    }
+    
+    .cover-image{
+        width: 100%;
+    }
+    
+    .ending{
+        float: inline-end;
+        padding: 40px;
+    }
+}

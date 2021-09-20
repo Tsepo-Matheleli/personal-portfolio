@@ -13,21 +13,19 @@ body{
     float: center;
     position: fixed;
     background-color: white;
+    border: 1px solid #fff;
 }
 
-#home, #about, #skills, #contact {
+#home, #about, #work, #contact {
     height: 100vh;
-    padding: 1px;
+    padding: 5px;
+    width: max-content;
 }
 
 @media (min-width:580px){
-    body{
-        overflow: auto;
-    }
     .container{
         display: grid;
         grid-template-areas: "N P P P";
-        background-color: tomato;
     }
 
     .navigation{
@@ -36,7 +34,17 @@ body{
 
     .pages{
         grid-area: P;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 25vw;
         display: grid;
+    }
+    #home, #about, #work, #contact {
+        height: 100vh;
+        width: auto;
+        position: relative;
+        padding: 5px;
     }
 }
 
