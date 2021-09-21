@@ -29,7 +29,7 @@ a {
     color: #fff;
 }
 
-@media (min-width: 580px){
+@media (min-width: 650px){
     
     ul{
         list-style-type: none;

@@ -1,11 +1,9 @@
 *{
     padding: 0%;
     margin: 0%;
-}
-
-body{
     overflow: hidden;
 }
+
 
 .navigation{
     grid-area: N;
@@ -16,13 +14,18 @@ body{
     border: 1px solid #fff;
 }
 
+/* .pages{
+    overflow-y: scroll;
+} */
+
 #home, #about, #work, #contact {
     height: 100vh;
+    max-height: max-content;
     padding: 5px;
-    width: max-content;
+    display: inline-block;
 }
 
-@media (min-width:580px){
+@media (min-width:650px){
     .container{
         display: grid;
         grid-template-areas: "N P P P";
@@ -39,10 +42,9 @@ body{
         right: 0;
         left: 25vw;
         display: grid;
+        overflow: hidden;
     }
     #home, #about, #work, #contact {
-        height: 100vh;
-        width: auto;
         position: relative;
         padding: 5px;
     }

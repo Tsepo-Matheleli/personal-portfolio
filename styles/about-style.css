@@ -1,0 +1,50 @@
+.about{
+    padding: 2px;
+    height: 150vh;
+    max-height: max-content;
+    overflow-y: scroll;
+}
+.about-intro{
+    word-spacing: 1.5px;
+    font-size: 18px;
+    color: #36454F;
+}
+
+h3 {
+    font-size: 15px;
+    color: #36454F;
+}
+
+p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+#umuzi {
+    list-style-type: none;
+    color: blue;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    width: min-content;
+}
+
+@media(min-width: 650px){
+    .about{
+        overflow: hidden;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    #umuzi {
+        list-style-type: none;
+        color: blue;
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        width: min-content;
+    }
+}
