@@ -4,7 +4,6 @@
     overflow: hidden;
 }
 
-
 .navigation{
     grid-area: N;
     bottom: 0;
@@ -14,10 +13,6 @@
     border: 1px solid #fff;
 }
 
-/* .pages{
-    overflow-y: scroll;
-} */
-
 #home, #about, #work, #contact {
     height: 100vh;
     max-height: max-content;
@@ -25,7 +20,7 @@
     display: inline-block;
 }
 
-@media (min-width:650px){
+@media (min-width:500px){
     .container{
         display: grid;
         grid-template-areas: "N P P P";
