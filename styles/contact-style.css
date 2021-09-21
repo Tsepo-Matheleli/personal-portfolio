@@ -7,11 +7,46 @@
     width: 80vw;
 }
 
+.contacts {
+    margin: auto;
+    height: 50%;
+    justify-items: center;
+    
+}
+.contact_heading {
+    word-spacing: 1.5px;
+    font-size: 18px;
+    color: #36454F;
+}
+
+.link_list {
+    list-style-type: none;
+    justify-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.label {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+    color:#36454F;
+}
+
+
+
 @media only screen and (max-width:481px){
     
     #contact {
         width: 80vw;
         padding: 10px;
+    }
+    li {
+        list-style-type: none;
+        width: 30vw;
+        height: 28vh;
     }
 }
 

@@ -1,6 +1,5 @@
 
-ul{
-    list-style-type: none;
+#menu{
     display: block;
     position: fixed;
     top: 0;
@@ -11,39 +10,31 @@ ul{
     background-color: #36454F;
 }
 
-li {
+.menu_items {
+    list-style-type: none;
     display: block;
     text-align: center;
     border-bottom: 1px thin #fff;
 } 
 
-a {
+.btn_menu {
     width: 20vw;
     padding-top: 25px;
     padding-bottom: 25px;
     display: list-item;
     text-decoration: none;
     text-align: center;
-    background-color: transparent;
     color: #fff;
-}
-
-a.btn_menu:active, a.btn_menu:focus {
-    color: #e2ca73;
-    background-color: rgb(207, 204, 173);
 }
 
 a.btn_menu:hover {
     background-color: rgb(207, 204, 173);
 }
 
-a.btn_menu:active, a.btn_menu:focus {
+.btn_menu:active{
     color: #e2ca73;
-    background-color: rgb(207, 204, 173);
-}
-#btn-menu:target{
-    color: #36454F;
-    background-color: #e2ca73;
+    /* color: #36454F; */
+    background-color: white;
 }
 
 
@@ -53,8 +44,9 @@ a.btn_menu:active, a.btn_menu:focus {
         height: 10vh;
     }
     
-    ul {
+    #menu {
         list-style-type: none;
+        justify-content: space-evenly;
         display: flex;
         position: fixed;
         bottom: 0;
@@ -62,15 +54,16 @@ a.btn_menu:active, a.btn_menu:focus {
         height: 10vh;
         background-color: #36454F;
     }
-    
-    a {
+
+    #menu_items {
         display: inline-block;
+
+    }
+    
+    .btn_menu {
         padding-top: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
         padding-bottom: 10px;
-        width: 100vw;
-        background-color: transparent;
+        width: auto;
         text-decoration: none;
         text-align: center;
     }
