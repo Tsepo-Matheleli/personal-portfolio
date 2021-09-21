@@ -35,7 +35,7 @@ img{
 
 
 
-@media (min-width: 500px){
+@media only screen and (min-width: 800px){
     .occupation {
         word-spacing: 1.5px;
     }

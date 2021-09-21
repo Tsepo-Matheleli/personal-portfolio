@@ -29,7 +29,7 @@ p {
     width: min-content;
 }
 
-@media(min-width: 800px){
+@media only screen and (min-width: 800px){
     .about{
         overflow: hidden;
     }
