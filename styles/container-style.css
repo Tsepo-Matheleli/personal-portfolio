@@ -4,6 +4,24 @@
     overflow: hidden;
 }
 
+.container{
+    display: grid;
+    grid-template-areas: 
+    "P"
+    "N";
+
+}
+
+.pages{
+    grid-area: P;
+    /* position: absolute; */
+    /* top: 0;
+    right: 0;
+    left: 25vw; */
+    /* display: grid; */
+    /* overflow: hidden; */
+}
+
 .navigation{
     grid-area: N;
     bottom: 0;
