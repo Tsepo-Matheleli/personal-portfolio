@@ -1,12 +1,13 @@
-ul {
+
+ul{
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    bottom: 0;
-    margin: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
     padding: 0;
-    width: 100vw;
-    height: 10vh;
+    margin: 0;
     background-color: #36454F;
 }
 
@@ -17,47 +18,19 @@ li {
 } 
 
 a {
-    display: inline-block;
-    padding-top: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    width: 100%;
-    background-color: transparent;
+    width: 20vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: list-item;
     text-decoration: none;
     text-align: center;
+    background-color: transparent;
     color: #fff;
 }
 
-@media(min-width:481px){
-    
-    ul{
-        list-style-type: none;
-        display: block;
-        position: fixed;
-        top: 0;
-        width: 20vw;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-        background-color: #36454F;
-    }
-    
-    a {
-        width: 19vw;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        border: 1px thin #fff;
-        display: list-item;
-        text-decoration: none;
-        text-align: center;
-        background-color: transparent;
-    }
-
-    a.btn_menu:active, a.btn_menu:focus {
-        color: #e2ca73;
-        background-color: rgb(207, 204, 173);
-    }
+a.btn_menu:active, a.btn_menu:focus {
+    color: #e2ca73;
+    background-color: rgb(207, 204, 173);
 }
 
 a.btn_menu:hover {
@@ -71,4 +44,34 @@ a.btn_menu:active, a.btn_menu:focus {
 #btn-menu:target{
     color: #36454F;
     background-color: #e2ca73;
+}
+
+
+@media only screen and (max-width:481px) {
+
+    .navigation{
+        height: 10vh;
+    }
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height: 10vh;
+        background-color: #36454F;
+    }
+    
+    a {
+        display: inline-block;
+        padding-top: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        width: 100vw;
+        background-color: transparent;
+        text-decoration: none;
+        text-align: center;
+    }
 }
