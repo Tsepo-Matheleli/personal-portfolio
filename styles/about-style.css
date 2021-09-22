@@ -3,27 +3,19 @@
     padding-left: 5vw;
     padding-right: 10vw;
     padding-bottom: 7vh;
-    height: 150vh;
+    height: 190vh;
 }
+
 .about-intro{
     word-spacing: 1.5px;
     font-size: 18px;
     color: #36454F;
 }
 
-h3 {
-    font-size: 15px;
-    color: #36454F;
-}
-
-p {
-    font-size: 16px;
-    padding: 5px;
-}
-
 #umuzi {
     list-style-type: none;
-    color: blue;
+    color: #e2ca73;
+    font-weight: 600;
     text-decoration: none;
     padding: 0;
     margin: 0;
@@ -34,16 +26,5 @@ p {
     #about {
         width: 80vw;
         padding: 10px;
-    }
-    
-    .about-intro{
-        word-spacing: 1.5px;
-        font-size: 18px;
-        color: #36454F;
-    }
-
-    p {
-        font-size: 12px;
-        padding: 5px;
     }
 }

@@ -22,16 +22,13 @@
 
 .links {
     list-style-type: none;
-    color: #36454F;
+    color: #e2ca73;
+    font-weight: 600;
 }
 
 .link {
     list-style-type: none;
-    margin: auto;
-    height: 50%;
-    justify-items: center;
-    padding: 20px;
-    color: #36454F;
+    margin: auto;6
 }
 
 :visited {
@@ -44,14 +41,21 @@
         width: 80vw;
         padding: 10px;
     }
+
+    .contact_heading {
+        word-spacing: 1.5px;
+        font-size: 16px;
+        color: #36454F;
+        padding-bottom: 10px;
+    }
     
     .link {
         
         margin: auto;
         height: 50%;
         justify-items: center;
-        padding: 20px;
-        color: #36454F;
+        padding: 10px;
+        color: #e2ca73;
     }
 
 }
