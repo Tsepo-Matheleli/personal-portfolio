@@ -4,6 +4,7 @@
     padding-right: 10vw;
     padding-bottom: 7vh;
     height: 190vh;
+    align-content: space-around;
 }
 
 .about-intro{
@@ -25,6 +26,7 @@
 @media only screen and (max-width: 481px){
     #about {
         width: 80vw;
+        height: 200vh;
         padding: 10px;
     }
 }
