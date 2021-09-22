@@ -29,6 +29,8 @@
 
 .cover-image{
     width: 80%;
+    margin: auto;
+
 }
 
 @media only screen and (max-width:481px) {
@@ -38,19 +40,27 @@
     }
     
     .cover-image{
-        align-self: center;
-        width: 80vw;
-        padding-top: 5vh;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+        /* background-color: aqua; */
+        /* justify-content: stretch; */
     } 
     
     #cover{
-        width: auto;
-        max-width: 80vw;
-        max-height: 50vh;
-        height: auto;
-        padding-left: 10vw;
-        padding-right: 10vw;
-        align-self: center;
+        /* background-color: red; */
+        width: 100%;
+        height: 90%;
+        margin-right: auto;
+        margin-bottom: auto;
+        padding-right: 10px;
+        /* margin: auto; */
+        /* padding-left: 10vw;
+        padding-right: 10vw; */
+        /* align-self: center; */
     }  
 }
 
