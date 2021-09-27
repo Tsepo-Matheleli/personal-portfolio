@@ -3,20 +3,13 @@
     padding-left: 5vw;
     padding-right: 10vw;
     padding-bottom: 7vh;
-    height: 100vh;
+    display: inline-block;
     width: 80vw;
 }
 
 .projects, .skills-list {
     padding: 40px;
 }
-
-/* .project-links {
-    padding-bottom: 10px;
-    list-style-type: none;
-}*/
-
-
 
 @media only screen and (max-width:481px){
     
