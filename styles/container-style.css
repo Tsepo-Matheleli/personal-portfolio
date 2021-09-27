@@ -7,10 +7,10 @@
 }
 
 h1 {
-    font-size: 22px;
-    letter-spacing: 1.5px;
+    font-size: 26px;
+    letter-spacing: 2.5px;
     text-transform: uppercase;
-    color: #36454F;
+    color: #C3073F;
     font-weight: bolder;
 
 }
@@ -19,19 +19,37 @@ h2 {
     font-size: 20px;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    color: #333333;
+    color: #5cacee;
 }
 
 h3 {font-size: 18px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #36454F;
+    color: #4f94cd;
     font-weight: bolder;
 }
 
 p {font-size: 16px;
     letter-spacing: 1.5px;
-    color: #333;
+    color: #f7f7f7;
+}
+
+a {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+} 
+
+.links {
+    list-style-type: none;
+    text-decoration: none;
+    color: #C3073F;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
 }
 
 
@@ -50,6 +68,7 @@ p {font-size: 16px;
     position: fixed;
     right: 0;
     overflow: hidden;
+    background-color: #1A1A1D;
 }
 
 @media only screen and (max-width:481px){
@@ -76,7 +95,6 @@ p {font-size: 16px;
         font-size: 22px;
         letter-spacing: 1.5px;
         text-transform: uppercase;
-        color: #36454F;
         font-weight: bolder;
     
     }
@@ -85,19 +103,16 @@ p {font-size: 16px;
         font-size: 18px;
         letter-spacing: 1.2px;
         text-transform: uppercase;
-        color: #333333;
     }
     
     h3 {font-size: 16px;
         letter-spacing: 1px;
         text-transform: uppercase;
-        color: #36454F;
         font-weight: bolder;
     }
     
     p {font-size: 14px;
         letter-spacing: 1.5px;
-        color: #333;
     }
 }
 

@@ -1,21 +1,15 @@
 #about {
+    align-content: space-around;
     padding-top: 10vh;
     padding-left: 5vw;
-    padding-right: 10vw;
-    padding-bottom: 7vh;
-    height: 190vh;
-    align-content: space-around;
-}
-
-.about-intro{
-    word-spacing: 1.5px;
-    font-size: 18px;
-    color: #36454F;
+    padding-right: 5vw;
+    padding-bottom: 10vh;
+    display: inline-block;
 }
 
 #umuzi {
     list-style-type: none;
-    color: #e2ca73;
+    color: #C3073F;
     font-weight: 600;
     text-decoration: none;
     padding: 0;
@@ -24,9 +18,10 @@
 }
 
 @media only screen and (max-width: 481px){
-    #about {
+    /* #about {
         width: 80vw;
         height: 200vh;
         padding: 10px;
-    }
+        
+    } */
 }

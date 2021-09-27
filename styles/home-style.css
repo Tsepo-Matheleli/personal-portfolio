@@ -8,12 +8,6 @@
     width: 80vw;
 }
 
-.name {
-    word-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #36454F;
-}
-
 .ending{
     padding: 20px;
     padding-right: 5vw;

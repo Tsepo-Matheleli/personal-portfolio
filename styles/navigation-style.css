@@ -7,7 +7,7 @@
     height: 100vh;
     padding: 0;
     margin: 0;
-    background-color: #36454F;
+    background-color: #4E4E50;
 }
 
 .menu_items {
@@ -54,7 +54,7 @@ a.btn_menu:hover {
         bottom: 0;
         width: 100vw;
         height: 10vh;
-        background-color: #36454F;
+        background-color: #4E4E50;
     }
 
     #menu_items {
