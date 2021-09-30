@@ -8,14 +8,12 @@
     display: inline-block;
 }
 
-.skills-list, .links {
+.skills-list {
     padding: 40px;
     list-style-type: circle;
-}
-
-.skills-list{
     color: white;
 }
+
 
 @media only screen and (max-width:768px){
     
@@ -27,12 +25,8 @@
         text-align: left;
     }
 
-    .skills-list, .links {
+    .skills-list {
         padding: 10px;
-    }
-
-    .skills-list{
-        color: white;
     }
 }
 
