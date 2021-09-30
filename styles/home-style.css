@@ -1,11 +1,12 @@
 #home{
     justify-content: space-evenly;
+    align-content: space-around;
     padding-top: 10vh;
     padding-left: 5vw;
-    padding-right: 10vw;
-    padding-bottom: 7vh;
-    height: 90vh;
-    width: 80vw;
+    padding-right: 5vw;
+    padding-bottom: 10vh;
+    min-height: 100vh;
+    display: inline-block;
 }
 
 .ending{
@@ -22,12 +23,12 @@
 }
 
 .cover-image{
-    width: 80%;
+    max-width: 75%;
     margin: auto;
-
+    padding-right: 25%;
 }
 
-@media only screen and (max-width:481px) {
+@media only screen and (max-width:768px) {
     #home {
         width: 80vw;
         padding: 10px;

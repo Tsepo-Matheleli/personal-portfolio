@@ -72,11 +72,11 @@ ul {
     width: 80vw;
     position: fixed;
     right: 0;
-    overflow: hidden;
+    overflow-y: auto;
     background-color: #1A1A1D;
 }
 
-@media only screen and (max-width:481px){
+@media only screen and (max-width:768px){
     
     .pages{
         width: 100vw;
