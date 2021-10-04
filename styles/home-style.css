@@ -1,20 +1,16 @@
 #home{
-    align-content: space-around;
-    width: 80vw;
+    margin-right: 2px;
     padding-top: 10vh;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 10vh;
     min-height: 100vh;
     display: inline-block;
-    
 }
 
 .ending{
-    max-width: 75%;
     margin: auto;
-    padding-right: 10%;
-    float: right;
+    padding-top: 10vh;
 }
 .occupation {
     word-spacing: 1.5px;
@@ -39,11 +35,6 @@
         padding: 10px;
         align-content: space-between;
     }
-    
-    /* .cover-image{
-        max-height: 75%;
-        max-width: 85%;
-    }  */
     
     #cover{
         max-width: 80%;

@@ -1,12 +1,13 @@
 #about {
     align-content: space-around;
+    margin-right: 2px;
     padding-top: 10vh;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 10vh;
     min-height: 100vh;
     display: inline-block;
-    overflow-y: clip;
+    /* overflow-y: clip; */
 }
 
 #umuzi {

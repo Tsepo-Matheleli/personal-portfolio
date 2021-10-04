@@ -37,6 +37,8 @@ p {font-size: 16px;
 a {
     list-style-type: none;
     text-decoration: none;
+    align-content: center;
+    align-items: center;
     color: #C3073F;
     font-weight: 600;
     padding-bottom: 10px;
@@ -53,6 +55,10 @@ a {
 ul {
     list-style-type: none;
 } 
+
+i {
+    font-size: 75px;
+}
 
 .navigation{
     height: 100vh;
@@ -114,6 +120,10 @@ ul {
     
     p {font-size: 14px;
         letter-spacing: 1.5px;
+    }
+
+    i {
+        font-size: 50px;
     }
 
     
