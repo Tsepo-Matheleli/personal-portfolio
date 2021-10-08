@@ -30,6 +30,10 @@
     font-weight: 700;
 }
 
+.menu_items i {
+    display: none;
+}
+
 a.btn_menu:hover {
     background-color: rgb(207, 204, 173);
 }
@@ -44,33 +48,42 @@ a.btn_menu:hover {
 
     .navigation{
         height: 10vh;
+        width: 100%;
     }
-    
+
     #menu {
-        list-style-type: none;
         justify-content: space-evenly;
         display: flex;
-        position: fixed;
-        bottom: 0;
-        width: 100vw;
+        align-items: center;
+        width: 100%;
+        padding: 2px;
         height: 10vh;
         background-color: #4E4E50;
     }
 
-    #menu_items {
-        display: inline-block;
+    .btn_menu {
+        display: none;
+    }
 
+    .menu_items i {
+        display: inline;
+        font-size: 30px;
+        color: #fff;
+        justify-self: center;
+    }
+
+    .menu_items a i:active {
+        color:#C3073F;
+    }
+
+    #menu_items {
+        display: block;
+        align-items: center;
     }
     
-    .btn_menu {
-        padding-top: 15px;
-        padding-bottom: 10px;
-        width: auto;
-        text-decoration: none;
-        text-align: center;
-        letter-spacing: 1px;
-        font-weight: 700;
-        font-size: 14px;
-        color: #fff;
-    }
+    
+
+    
+    
+    
 }
